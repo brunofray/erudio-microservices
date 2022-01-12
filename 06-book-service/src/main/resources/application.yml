@@ -30,3 +30,5 @@ spring:  application:    name: book-service
     schemas: book_service
     user: root
     password: 123mudar
+springdoc:
+  show-actuator: true  api-docs:    path: book-service/v3/api-docs
