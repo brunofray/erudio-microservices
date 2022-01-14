@@ -30,5 +30,6 @@ spring:  application:    name: book-service
     schemas: book_service
     user: root
     password: 123mudar
+  sleuth:    sampler:      probability: 1.0
 springdoc:
   show-actuator: true  api-docs:    path: book-service/v3/api-docs
